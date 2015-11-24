@@ -1,0 +1,32 @@
+/* scrollbar :: created by kass Barker :: kassbarker.com  :: hi@kassbarker.com */
+/* scrollbar name : 2027 */
+::-webkit-scrollbar {
+	width: 14px;
+} 
+::-webkit-scrollbar-track {
+	background-color: #ded6d6;
+	border-right: 4px solid;
+	border-left: 4px solid;
+	color: #fff;
+} 
+::-webkit-scrollbar-thumb {
+	background: #414141; /* fallback */
+	background:
+		linear-gradient(135deg, transparent 10px, #414141 0) top left,
+		linear-gradient(225deg, transparent 10px, #414141 0) top right,
+		linear-gradient(315deg, transparent 10px, #414141 0) bottom right,
+		linear-gradient(45deg,  transparent 10px, #414141 0) bottom left;
+	background-size: 50.5% 50.5%;
+	background-repeat: no-repeat;
+	border-right: 4px solid;
+	border-left: 4px solid;
+	color: #fff;
+}
+::-webkit-scrollbar-button:vertical:decrement {
+	height: 2px;
+	background-color: #fff;	
+}
+::-webkit-scrollbar-button:vertical:increment {
+	height: 3px;
+	background-color: #fff;
+}
