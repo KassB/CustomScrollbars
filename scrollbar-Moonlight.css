@@ -1,0 +1,24 @@
+/* scrollbar :: created by kass Barker :: kassbarker.com  :: hi@kassbarker.com */
+/* scrollbar name : Moonlight */
+::-webkit-scrollbar {
+	width: 14px;
+} 
+::-webkit-scrollbar-track {
+	background-color: #4a4a4a;
+} 
+::-webkit-scrollbar-thumb {
+	background-color: #b8b8b8;
+}
+::-webkit-scrollbar-button:vertical:decrement {
+	background: url("http://kassbarker.com/scrollres/uparrowdark.jpg");
+	background-repeat: no-repeat;
+	height: 14px;
+	background-color: #4a4a4a;	
+}
+::-webkit-scrollbar-button:vertical:increment {
+	background: url("http://kassbarker.com/scrollres/downarrow.jpg");
+	background-repeat: no-repeat;
+	height: 14px;
+	background-color: #4a4a4a;
+	background-position:bottom;
+}
